@@ -5,7 +5,7 @@ resource "azurerm_sql_server" "sqlserver" {
   location                     = azurerm_resource_group.multi_deploy_rg.location
   version                      = "12.0"
   administrator_login          = "rnadmin"
-  administrator_login_password = "4p455w0rd"
+  administrator_login_password = "4-S3cr37#-4p455w0rd"
 }
 
 resource "azurerm_sql_virtual_network_rule" "sqlvnetrule" {
